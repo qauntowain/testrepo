@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BWSharedResource xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <name>Shared Variable</name>
+    <resourceType>ae.shared.sharedVariable</resourceType>
+    <config xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <persistent>true</persistent>
+        <multi-engine>true</multi-engine>
+        <initialValue>none</initialValue>
+        <xsdString>
+            <xsd:element name="root">
+                <xsd:complexType>
+                    <xsd:sequence>
+                        <xsd:element name="Name" type="xsd:string"/>
+                        <xsd:element name="State" type="xsd:string"/>
+                        <xsd:element name="Country" type="xsd:string"/>
+                    </xsd:sequence>
+                </xsd:complexType>
+            </xsd:element>
+        </xsdString>
+    </config>
+</BWSharedResource>
